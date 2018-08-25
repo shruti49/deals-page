@@ -210,6 +210,15 @@ div#myBtnContainer {
    font-size: 14px;
 }
 
-.s {
+.s{
    box-shadow: 5px 0px 40px rgba(0, 0, 0, 0.2);
+}
+
+.s img{
+    height: 200px;
+}
+
+h3.game-name {
+    font-size: 1.60rem;
+    margin: auto;
 }
