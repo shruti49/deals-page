@@ -1,0 +1,215 @@
+body {
+   font-family: sans-serif;
+}
+.fas.fa-bars{
+   color: rgb(36, 39, 43);
+}
+
+/***********Sidebar***************/
+
+#sidebar-wrapper {
+   z-index: 2;
+   position: fixed;
+   width: 0;
+   height: 100vh;
+   overflow-x: hidden;
+   background-color: rgb(36, 39, 43);
+   opacity: 0.9;
+}
+
+/******Main content*******/
+#page-content-wrapper {
+   width: 100%;
+   position: absolute;
+   padding: 15px;
+}
+
+/*******change the side bar to display it******/
+.toggled #sidebar-wrapper {
+   width: 250px;
+}
+
+.toggled #page-content-wrapper {
+   padding-left: 250px;
+}
+
+/****Sidebar Styling*****/
+.sidebar-nav {
+   padding: 0;
+   list-style: none;
+}
+
+.sidebar-nav li {
+   text-indent: 20px;
+   line-height: 40px;
+}
+
+.sidebar-nav li a {
+   display: block;
+   text-decoration: none;
+}
+
+/**sidebar list styling**/
+img.header-logo {
+   width: 40px;
+   height: 40px;
+}
+
+a#menu-toggle {
+   font-size: 25px;
+   margin-left: 20px;
+}
+a.list-item:hover {
+   background-color: #aaa;
+}
+
+.list-item {
+   font-size: 20px;
+}
+
+li.header-info {
+   margin-top: 50px;
+   font-size: 30px;
+}
+
+.nav-list-item1 {
+   margin-top: 30px;
+}
+
+#btn1,
+#btn2 {
+   width: 208px;
+   text-transform: capitalize;
+   color: #fff;
+}
+
+#btn1:hover {
+   background-color: rgb(67, 167, 148);
+}
+.signin {
+   margin-top: 150px;
+}
+.register {
+   margin-top: 20px;
+}
+
+/***Search-Bar****/
+
+.form-group {
+   padding: 30px 15px 0px 15px;
+}
+
+input.form-control {
+   -webkit-border-radius: 200px;
+   -moz-border-radius: 200px;
+   border-radius: 200px;
+}
+
+.has-search .form-control {
+   padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+   position: absolute;
+   z-index: 2;
+   display: block;
+   width: 2.375rem;
+   height: 2.375rem;
+   line-height: 2.375rem;
+   text-align: center;
+   pointer-events: none;
+   color: #aaa;
+}
+
+/*****Contact Form*****/
+#imaging {
+   max-width: 200px;
+   max-height: 200px;
+   margin: 0 auto;
+}
+
+#login-modal .modal-dialog {
+   width: 800px;
+}
+
+#login-modal input[type="text"],
+input[type="password"] {
+   margin-top: 15px;
+}
+div#myBtnContainer {
+   text-align: center;
+}
+
+.main h1 {
+   font-size: 40px;
+   word-break: break-all;
+}
+
+.main h2 {
+   font-size: 25px;
+}
+
+#gallery {
+   margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+#gallery,
+#gallery > .column {
+   padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+   float: left;
+   width: 33.33%;
+   display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */
+.gallery:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+/* Content */
+.content {
+   background-color: white;
+   padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+   display: block;
+}
+
+/* Style the buttons */
+#myBtnContainer.btn {
+   border: none;
+   outline: none;
+   padding: 12px 16px;
+   background-color: white;
+   cursor: pointer;
+}
+
+#myBtnContainer .btn:hover {
+   background-color: #dddd;
+}
+
+#myBtnContainer .btn.active {
+   background-color: #666;
+   color: white;
+}
+
+.price1 {
+   color: orange;
+}
+.discount {
+   color: skyblue;
+   font-size: 14px;
+}
+
+.s {
+   box-shadow: 5px 0px 40px rgba(0, 0, 0, 0.2);
+}
