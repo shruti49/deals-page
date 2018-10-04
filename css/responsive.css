@@ -1,4 +1,4 @@
-@media(min-width:575px) and (max-width:767px) {
+@media screen and (min-width:575px) and (max-width:767px) {
     /**image slider**/
     #game-offer img {
         height: 350px;
@@ -30,9 +30,14 @@
         padding: 30px;
     }
     /*image slider end*/
+   #gallery,
+    #gallery > .column {
+    width: 100%;
+   padding: 8px;
+}
 }
 
-@media(min-width:480px) and (max-width:574px) {
+@media screen and (min-width:480px) and (max-width:574px) {
     /**image slider**/
     .image-content {
         height: 230px;
@@ -61,9 +66,14 @@
         padding: 30px;
     }
     /*image slider end*/
+    #gallery,
+    #gallery > .column {
+    width: 100%;
+   padding: 8px;
+}
 }
 
-@media(max-width:479px) {
+@media screen and (max-width:479px) {
     /*medium*/
     /**image slider**/
     #game-offer img {
@@ -121,5 +131,10 @@
     .card-height {
         height: 380px;
         margin-bottom: 5px;
+    }
+    #gallery,
+    #gallery > .column {
+    width: 100%;
+    padding: 8px;
     }
 }
